@@ -2,55 +2,46 @@
   margin: 0px auto;
   padding: 0px 0px;
 }
-
 .row-content {
   margin: 0px auto;
   padding: 50px 0px;
   border-bottom: 1px ridge;
   min-height: 400px;
 }
-
 .footer {
   background-color: blanchedalmond;
   margin: 0px auto;
   padding: 20px 0px;
 }
-
 .jumbotron {
   margin: 0px auto;
   padding: 70px 30px;
-  background: #f090f0;
+  background: cadetblue;
   color: floralwhite;
 }
-
 address {
   font-size: 80%;
   margin: 0px;
   color: #0f0f0f;
 }
-
 body {
   padding: 50px 0px 0px 0px;
   z-index: 0;
 }
-
 .navbar-dark {
-  background-color: #910f96;
+  background-color: #610c64;
 }
-
 .tab-content {
   border-left: 1px solid #ddd;
   border-right: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   padding: 10px;
 }
-
 .breadcrumb > li + li:before {
-  content: ">";
+  content: "\3E";
 }
-
 .carousel {
-  background: #910f96;
+  background: #610c64;
 }
 .carousel .carousel-item {
   height: 300px;
@@ -61,23 +52,9 @@ body {
   left: 0;
   min-height: 300px;
 }
-
 #carouselButton {
   right: 0px;
   position: absolute;
   bottom: 0px;
   z-index: 1;
 }
-
-.modal .modal-header {
-  background: #910f96;
-  color: white;
-}
-.modal .modal-header #dismissButton {
-  color: floralwhite;
-}
-.modal .modal-body {
-  background: #f090f0;
-}
-
-/*# sourceMappingURL=styles.css.map */
